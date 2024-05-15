@@ -13,22 +13,13 @@ This application combines Django backend with React frontend seamlessly integrat
 
 ## Installation
 
-1. Install Python dependencies:
-   
-   ```pip install -r requirements.txt```
+1. Install Python dependencies: ```pip install -r requirements.txt```
 
-2. Install Node.js dependencies:
+2. Install Node.js dependencies:```cd frontend``` and ```npm install```
 
-```cd frontend```
-```npm install```
+3. For development, run: ```npm run dev```
 
-3. For development, run:
-
-```npm run dev```
-
-4. For production, build the project with:
-
-```npm run build```
+4. For production, build the project with: ```npm run build```
 
 
 ## Screenshots
