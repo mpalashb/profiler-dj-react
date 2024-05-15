@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+<!--  -->
+{% load static %}
+<!--  -->
+
+{% block title %} Dahsboard {% endblock title %}
+
+<!--  -->
+
+{% block custom_css %}
+<!--  -->
+{% for css in reactjs_assets_css_paths %}
+<link rel="stylesheet" href="{% static css %}" />
+{% endfor %}
+<!--  -->
+{% endblock custom_css %}
+<!--  -->
+{% block content %}
+
+<div id="root" class="container"></div>
+
+{% endblock content %}
+
+<!--  -->
+
+{% block custom_js %}
+<!--  -->
+{% for js in reactjs_assets_js_paths %}
+<script src="{% static js %}"></script>
+{% endfor %}
+<!--  -->
+{% endblock custom_js %}
+<!--  -->
